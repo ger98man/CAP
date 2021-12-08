@@ -1,0 +1,17 @@
+{
+    "dependencies": {
+        "express": "^4.17.1",
+        "node-cron": "^3.0.0",
+        "hdb": "^0.18.3"
+    },
+    "cds": {
+        "requires": {
+            "db": {
+                "kind": "sql"
+            }
+        },
+        "hana": {
+            "deploy-format": "hdbtable"
+        }
+    }
+}

@@ -1,0 +1,3 @@
+service pocJob {
+  action Job();
+}
